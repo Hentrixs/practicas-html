@@ -1,0 +1,12 @@
+pwd
+cd "ruta"
+ls
+pwd
+git init
+pwd
+ echo "# practicas-html" >> README.md
+git init
+git add readme.md
+git commit -m "first commit"
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"

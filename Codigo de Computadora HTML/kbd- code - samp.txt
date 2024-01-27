@@ -1,0 +1,4 @@
+el <kbd> elemento define la entrada de teclado
+el <samp> elemento define la salida dada por la computadora
+el <code> define un fragmento de codigo informatico
+el <var> define una variable o expresion matematica

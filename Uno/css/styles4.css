@@ -1,0 +1,63 @@
+body {
+    background-image: url(../Background2.png);
+}
+.backgroundblue {
+    background-color: blue;
+}
+.backgroundred {
+    background-color: red;
+}
+.backgroundyellow {
+    background-color: yellow;
+}
+.backgroundgray {
+    background-color: gray;
+}
+.backgroundrojito {
+    background-color: crimson;
+}
+.backgroundorange {
+    background-color: orange;
+}
+.backgroundcyan {
+    background-color: cyan;
+}
+.backgroundwheat {
+    background-color: wheat;
+}
+.backgroundaquamarine {
+    background-color: aquamarine;
+}
+.backgroundgold {
+    background-color: gold;
+}
+header {
+    background-color: gray;
+    padding: 4%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+section {
+    background-color: blue;
+    padding: 4%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+article {
+    background-color: red;
+    padding: 4%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+nav {
+    background-color: aqua;
+    padding: 4%;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 400px;
+}
