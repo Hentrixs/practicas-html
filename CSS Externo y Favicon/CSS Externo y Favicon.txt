@@ -1,0 +1,3 @@
+Para poner esas 2 cosas puedes usar esto, va en la parte de head
+    <link rel="stylesheet" href="./css/styles2.css">
+    <link rel="icon" type="x-icon" href="./Favicon/favicon1.ico.ico">

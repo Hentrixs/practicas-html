@@ -1,0 +1,17 @@
+En este capítulo veremos los elementos <blockquote>, <q>, <abbr>, <address>, <cite> y <bdo> HTML.
+el <blockquote cite="Enlace">
+define una seccion que se cita de otra fuente y que los navegadores aplican una sangria
+la <q> sirve para citas leves al cual el navegador suele poner comillas
+<p> Madara: <q> Donde hay luz tiene que haber sombras </q> </p
+la <abbr> define una abreviatura o acronimo como OTAN
+<p la <abbr title=Organizacion del Tratado del Atlantico Norte>OTAN</abbr> es una alianza defensiva</p>
+la <address> sirve para mostrar tu direccion en cursiva
+<address>
+Tobias Ramirez <br>
+9 de julio <br>
+edad 16 <br>
+</address>
+la etiqueta cite define el titulo de una obra creatica
+<p> <cite> La monalisa <cite> by alguien </p>
+la etiqueta <bdo> se usa para anular la direccion del texto actual
+<bdo dir=rtl>Este texto esta volteado</bdo>

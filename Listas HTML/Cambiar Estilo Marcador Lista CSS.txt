@@ -1,0 +1,13 @@
+se hace con list-style-type
+se pueden usar
+disc
+circle
+square
+none
+Ejemplo
+
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>

@@ -1,0 +1,36 @@
+body {
+    background-image: url(../Background2.png);
+}
+h1 {
+    background-image: url(../aaaa.jpg);
+}
+.backgroundblue {
+    background-color: blue;
+}
+.backgroundred {
+    background-color: red;
+}
+.backgroundyellow {
+    background-color: yellow;
+}
+.backgroundgray {
+    background-color: gray;
+}
+.backgroundrojito {
+    background-color: crimson;
+}
+.backgroundorange {
+    background-color: orange;
+}
+.backgroundcyan {
+    background-color: cyan;
+}
+.backgroundwheat {
+    background-color: wheat;
+}
+.backgroundaquamarine {
+    background-color: aquamarine;
+}
+.backgroundgold {
+    background-color: gold;
+}

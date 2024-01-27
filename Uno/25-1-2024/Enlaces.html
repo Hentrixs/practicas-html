@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces</title>
+    <style>
+        body {background-color: gray;}
+        h1 {background-color: red;text-align: center;border: 1px solid black;padding: 5px;margin: 5px;}
+        p {background-color: red;border: 1px solid black;padding: 10px;margin: 10px;}
+        a:link {color: greenyellow;background-color: transparent;text-decoration: none;}
+        a:visited {color: blue;background-color: transparent;text-decoration: none;}
+        a:hover {color: gray;background-color: transparent;text-decoration: underline;}
+        a:active {color: yellow;background-color: transparent;text-decoration: underline;}
+    </style>
+</head>
+<body>
+    <h1>Enlaces HTML</h1>
+    <p>Generalmente cuando haces click en un enlace se te abre sobre la misma pagina que estas. <br>
+        Para cambiar eso podemos usar _blank el cual abre la pagina en una pestaña al lado, <br>
+        parent, el cual abre la pagina en el marco principal <br>
+        como por ejemplo =<br><a href="https:www.google.com" target="_blank">Enlace con _blank</a><br>
+        <a href="https:www.google.com" target="_parent">Enlace con _parent</a><br>
+        <a href="https:www.google.com" >Enlace con _top</a></p><br>
+    
+    <p>Para Colocar usar una imagen como enlace colocar el codigo de imagen dentro del enlace= <br>
+        <a href="https:www.google.com">
+            <img src="Planetas.jpg" alt="xd" width="300" height="300">
+            <img src="https://www.imprentaonline.net/blog/wp-content/uploads/DALL%C2%B7E-2023-10-16-10.41.49-Illustration-depicting-a-humanoid-robot-with-half-of-its-face-transparent-revealing-intricate-circuits-and-gears-inside.-The-robot-is-holding-a-light-1.png" alt="xd" width="300" height="300">
+
+            
+
+        </a></p><br>
+        <p>Para hacer un enlace hacia un email <br>
+        <a href="mailto:tobiasfala@gmail.com">Email</a></p>
+        <button onclick="xx()">BotonEspecial</button>
+        <br>
+        <p>Un enlace tiene 4 fases, el link normal, el link visitado,
+            el link cuando pasamos el mouse encima y el link activo.
+        </p>
+
+        <script>
+            function xx(){
+
+                alert("Boton");
+            }
+        </script>
+</body>
+</html>

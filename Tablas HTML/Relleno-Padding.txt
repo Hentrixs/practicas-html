@@ -1,0 +1,2 @@
+para hacer el relleno que separa el borde del contenido puedes usar
+padding: 15px;

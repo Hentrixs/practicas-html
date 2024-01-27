@@ -1,0 +1,13 @@
+establezca la border-collapse propiedad CSS en collapse.
+Ejemplo
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+para poner esquinas redondas podemos usar border-radius
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}

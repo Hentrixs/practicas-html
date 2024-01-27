@@ -1,0 +1,5 @@
+Se puede cambiar el color del borde con border-color
+Ejemplo
+ th, td {
+  border-color: #96D4D4;
+}

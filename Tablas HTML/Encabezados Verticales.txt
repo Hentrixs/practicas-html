@@ -1,0 +1,2 @@
+Para utilizar la primera columna como encabezados de tabla, defina la primera celda de cada fila como <th>elemento:
+

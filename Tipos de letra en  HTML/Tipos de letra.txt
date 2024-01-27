@@ -1,0 +1,10 @@
+<b>- Texto en negrita
+<strong>- Texto importante
+<i>- Texto en cursiva
+<em>- Texto enfatizado
+<mark>- Texto marcado
+<small>- Texto más pequeño
+<del>- Texto eliminado
+<ins>- Texto insertado
+<sub>- Texto subíndice
+<sup>- Texto en superíndice

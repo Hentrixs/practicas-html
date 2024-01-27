@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento Picture</title>
+    <link rel="stylesheet" href=".//css/styles.css">
+
+    <style>
+        @media only screen and(mind-width: 1px){
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Elemento Picture</h1>
+    <p>El elemento picture sirve para ayudar a poner
+    imagenes que consuman menos o para poner imagenes 
+    compatibles con el dispositivo que estas usando
+    es recomendable usarlo para asegurar la compatibilidad de la pagina 
+    en otros dispositivos</p>
+    <picture>
+        <source media="(max-width: 767px)" srcset="aaaa.jpg">
+        <source media="(max-width: 319px)" srcset="pxfuel.jpg">
+        
+        
+        <img src="./Titanio.jpg" alt="El Titanio" width="300" height="300">
+    </picture>
+
+</body>
+</html>

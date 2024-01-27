@@ -1,0 +1,19 @@
+Con la border-style propiedad, puedes establecer la apariencia del borde.
+se permiten los siguientes valores
+
+dotted     
+dashed     
+solid     
+double     
+groove     
+ridge     
+inset     
+outset     
+none     
+hidden
+
+Ejemplo
+
+ th, td {
+  border-style: dotted;
+}

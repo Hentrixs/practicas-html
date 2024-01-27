@@ -1,0 +1,51 @@
+Con Float
+<style>
+.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.mycontainer div {
+  width:33%;
+  float:left;
+}
+</style>
+
+Con inline-block
+<style>
+div {
+  width: 30%;
+  display: inline-block;
+}
+</style>
+
+Con flex
+El módulo de diseño CSS Flexbox se introdujo para facilitar el diseño de una estructura de diseño flexible
+ y responsiva sin utilizar flotación ni posicionamiento.
+Para que el método CSS flex funcione, rodee los <div>elementos con otro <div>elemento 
+y asígnele el estado de contenedor flexible.
+
+<style>
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width:33%;
+}
+</style>
+
+Con Red
+
+El módulo CSS Grid Layout ofrece un sistema de diseño basado en cuadrículas,
+con filas y columnas, lo que facilita el diseño de páginas web sin tener que utilizar elementos flotantes 
+ni posicionamiento.
+Suena casi igual que flex, pero tiene la capacidad de definir más de una fila y posicionar cada fila individualmente.
+El método de cuadrícula CSS requiere que rodee los <div> elementos con otro
+<div> elemento y le dé el estado como contenedor de cuadrícula, y debe especificar el ancho de cada columna.
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+</style>
+
