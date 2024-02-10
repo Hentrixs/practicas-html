@@ -1,0 +1,23 @@
+El outline o contorno es una linea que esta fuera del borde del elemento
+
+Un contorno es una línea que se dibuja alrededor de los elementos, 
+FUERA de los bordes, para que el elemento "se destaque".
+
+outline-style
+outline-color
+outline-width
+outline-offset
+outline
+
+La outline-style propiedad especifica el estilo del contorno y puede tener uno de los siguientes valores:
+
+dotted- Define un contorno de puntos
+dashed- Define un contorno discontinuo
+solid- Define un contorno sólido
+double- Define un doble contorno.
+groove- Define un contorno ranurado 3D
+ridge- Define un contorno estriado 3D
+inset- Define un contorno insertado en 3D
+outset- Define un esquema de inicio en 3D.
+none- No define ningún contorno
+hidden- Define un contorno oculto

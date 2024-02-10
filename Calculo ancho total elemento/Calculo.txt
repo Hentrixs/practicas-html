@@ -1,0 +1,17 @@
+Aquí está el cálculo:
+  320px (ancho del área de contenido)
++ 20px (relleno izquierdo + relleno derecho)
++ 10px (borde izquierdo + borde derecho)
+= 350px (ancho total)
+
+  50px (alto del área de contenido)
++ 20px (relleno superior + relleno inferior)
++ 10px ( borde superior + borde inferior)
+= 80px (alto total)
+El ancho total de un elemento debe calcularse así:
+
+Ancho total del elemento = ancho + relleno izquierdo + relleno derecho + borde izquierdo + borde derecho
+
+La altura total de un elemento debe calcularse así:
+
+Altura total del elemento = altura + relleno superior + relleno inferior + borde superior + borde inferior

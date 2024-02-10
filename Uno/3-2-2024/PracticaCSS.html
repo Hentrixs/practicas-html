@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica HTML</title>
+    <link rel="favicon" href="./Favicon/favicon1.ico.ico">
+    <style>
+        body {
+            background-color: gray;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            background-color: red;
+            opacity: 0.7;
+        }
+            /*en caso de que quiera que el background se repita horizontalmente o verticalmente
+             (cuando no cubre totalmente la pantalla)
+               background-repeat: repeat-x;    (repeticion horizontal)
+               background-repeat: repeat-y;    (repeticion vertical)
+            /*
+            /* si queremos que el background no se repita usamos
+               background-repeat: no-repeat; */
+            /* la propiedad opacity sirve para poner la transparencia, va de 0.0 a 1.0 */ 
+
+            /* si no desea que los elementos secundarios sufran el efecto de transparencia
+                puede usar background: rgba(0, 120, 0, 0.3) */
+            /* La background-positionpropiedad se utiliza para especificar la posición de la imagen de fondo.
+                  background-position: right top;
+            */
+        p.test {color: brown;}
+        h1.alineacion {
+            margin: 30px;
+        }
+        * {
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+    <!--Poner la p.(nombre de clase) hace que solo la clase afecte a los parrafos-->
+    <!-- El aterisco (*) afecta a todos los elementos HTML de la pagina-->
+    <!-- Se pueden agrupar elementos html usando la coma-->
+</head>
+<body>
+    <h1 class="test">Este es un encabezado con clase p.test</h1>
+    <p class="test">Este es un parrafo con clase test, cuando haces una clase de esta forma <br>
+        puedes hacer que una clase solo afecte a determinado grupo de elementos, en este caso el <br>
+         solo afecta a los parrafos como este</p>
+    <h2 class="test">Este es un encabezado h6 que no puede ser afectado por la clase test ya que esa clase <br>
+        esta diseñada para solo modificar parrafos</h2>
+</body>
+</html>

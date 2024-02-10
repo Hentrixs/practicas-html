@@ -1,0 +1,10 @@
+Las propiedades overflow-x y overflow-y especifican si se debe cambiar el desbordamiento del contenido
+solo horizontal o verticalmente (o ambos):
+
+overflow-x especifica qué hacer con los bordes izquierdo/derecho del contenido.
+overflow-y especifica qué hacer con los bordes superior/inferior del contenido.
+
+div {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}

@@ -1,0 +1,14 @@
+La posición Propiedad
+La position propiedad especifica el tipo de método de posicionamiento utilizado para un elemento.
+
+Hay cinco valores de posición diferentes:
+
+static
+relative
+fixed
+absolute
+sticky
+
+Luego, los elementos se colocan utilizando las propiedades superior, inferior, izquierda y derecha.
+Sin embargo, estas propiedades no funcionarán a menos que position se establezcan primero.
+También funcionan de manera diferente según el valor de la posición.

@@ -1,0 +1,12 @@
+Los elementos HTML se colocan estáticos de forma predeterminada.
+
+Los elementos posicionados estáticamente no se ven afectados por las 
+propiedades superior, inferior, izquierda y derecha.
+
+Un elemento con position: static;no está colocado de ninguna manera especial;
+siempre se coloca de acuerdo con el flujo normal de la página:
+
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}

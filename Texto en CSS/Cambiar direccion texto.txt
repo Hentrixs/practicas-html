@@ -1,0 +1,8 @@
+Las propiedades direction y unicode-bidise pueden utilizar para cambiar la dirección del texto de un elemento:
+
+p {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+

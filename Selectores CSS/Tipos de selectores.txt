@@ -1,0 +1,8 @@
+Un selector CSS puede contener más de un selector simple. Entre los selectores simples podemos incluir un combinador.
+
+Hay cuatro combinadores diferentes en CSS:
+
+selector descendiente indirecto(espacio)
+selector de decendiente directo (>)
+selector de hermanos adyacentes (+)
+selector de hermanos general (~)

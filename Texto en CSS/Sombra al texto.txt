@@ -1,0 +1,7 @@
+
+La text-shadow propiedad agrega sombra al texto.
+En su uso más simple, solo especificas la sombra horizontal (2px) y la sombra vertical (2px):
+
+h1 {
+  text-shadow: 2px 2px;
+}

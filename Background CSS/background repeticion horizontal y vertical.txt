@@ -1,0 +1,4 @@
+            /*en caso de que quiera que el background se repita horizontalmente o verticalmente
+             (cuando no cubre totalmente la pantalla)
+               background-repeat: repeat-x;    (repeticion horizontal)
+               background-repeat: repeat-y;    (repeticion vertical)

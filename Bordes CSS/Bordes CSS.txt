@@ -1,0 +1,23 @@
+dotted- Define un borde de puntos
+dashed- Define un borde discontinuo
+solid- Define un borde sólido
+double- Define un doble borde.
+groove- Define un borde ranurado 3D. El efecto depende del valor del color del borde.
+ridge- Define un borde estriado 3D. El efecto depende del valor del color del borde.
+inset- Define un borde insertado 3D. El efecto depende del valor del color del borde.
+outset- Define un borde inicial 3D. El efecto depende del valor del color del borde.
+none- No define fronteras
+hidden- Define un borde oculto
+
+ejemplo
+.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}

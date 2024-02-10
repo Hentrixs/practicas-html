@@ -1,0 +1,3 @@
+            /* si queremos que el background no se repita usamos
+               background-repeat: no-repeat; */
+            /* la propiedad opacity sirve para poner la transparencia, va de 0.0 a 1.0 */ 

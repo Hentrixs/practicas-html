@@ -1,0 +1,9 @@
+Jerarquía de especificidad
+Cada selector de CSS tiene su lugar en la jerarquía de especificidad.
+
+Hay cuatro categorías que definen el nivel de especificidad de un selector:
+
+Estilos en línea 				- Ejemplo: <h1 style="color: pink;">
+ID : 						- Ejemplo: #navbar
+Clases, pseudoclases, selectores de atributos 	- Ejemplo: .test, :hover, [href]
+Elementos y pseudoelementos 			- Ejemplo: h1, ::before

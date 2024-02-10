@@ -1,0 +1,5 @@
+La text-indent propiedad se utiliza para especificar la sangría de la primera línea de un texto:
+
+p {
+  text-indent: 50px;
+}

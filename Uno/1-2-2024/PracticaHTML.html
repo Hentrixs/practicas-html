@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tobias Ramirez">
+    <meta name="Description" content="Practice">
+    <link rel="Favicon" href="./Favicon/favicon1.ico.ico">
+    <link rel="stylesheet" href="css/styles3.css">
+    <title>Practica</title>
+</head>
+<body>
+    <h1>Practica HTML5 y Javascript</h1>
+    <form action="">
+        <label for="Input1">Ingresa tu nombre</label>
+        <br>
+        <input type="text" id="Input1">
+        <br>
+        <button onclick="algo();">Devolver Nombre</button>
+        
+    </form>
+
+
+
+
+    <script>
+        function algo(){
+            let miinput1 = document.getElementById("Input1");
+
+            let texto = miinput1.value;
+
+            let a = "hola " ; 
+            var b = " Tobias" ; 
+
+            alert( a + b);
+        }
+    </script>    
+</body>
+</html>

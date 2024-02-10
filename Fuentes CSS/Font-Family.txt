@@ -1,0 +1,22 @@
+En CSS, usamos la font-family propiedad para especificar la fuente de un texto.
+
+Nota : Si el nombre de la fuente tiene más de una palabra, debe estar entre comillas, como: "Times New Roman".
+
+Consejo: La font-family propiedad debe contener varios nombres de fuentes como sistema "alternativo"
+para garantizar la máxima compatibilidad entre navegadores y sistemas operativos. Comience con la
+fuente que desee y termine con una familia genérica (para permitir que el navegador elija una fuente
+similar en la familia genérica, si no hay otras fuentes disponibles). Los nombres de las fuentes
+deben estar separados por comas. Lea más sobre las fuentes alternativas en el próximo capítulo .
+
+Ejemplos
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}

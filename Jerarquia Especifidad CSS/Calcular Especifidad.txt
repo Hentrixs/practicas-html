@@ -1,0 +1,17 @@
+¿Cómo calcular la especificidad?
+¡Memoriza cómo calcular la especificidad!
+
+Comience en 0, agregue 100 para cada valor de ID,
+agregue 10 para cada valor de clase (o pseudoclase o selector de atributos),
+agregue 1 para cada selector de elemento o pseudoelemento.
+
+Selector		Specificity Value	Calculation
+p			1				1
+p.test			11				1 + 10
+p#demo			101				1 + 100
+<p style="color: pink;">1000				1000
+#demo			100				100
+.test			10				10
+p.test1.test2		21				1 + 10 + 10
+#navbar p#demo		201				100 + 1 + 100
+*	0	0 (the universal selector is ignored)

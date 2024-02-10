@@ -1,0 +1,16 @@
+Cómo utilizar las fuentes de Google
+Simplemente agregue un enlace de hoja de estilo especial en la sección <head> y luego consulte la fuente en el CSS.
+Si queremos mas de una fuente simplemente tenemos que separarlas usando una barra vertical
+
+Ejemplo
+
+
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+h1 {
+</style>
+</head>

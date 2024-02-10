@@ -1,0 +1,3 @@
+    <!--Poner la p.(nombre de clase) hace que solo la clase afecte a los parrafos-->
+    <!-- El aterisco (*) afecta a todos los elementos HTML de la pagina-->
+    <!-- Se pueden agrupar elementos html usando la coma-->

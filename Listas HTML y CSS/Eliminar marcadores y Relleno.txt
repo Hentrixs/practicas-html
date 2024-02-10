@@ -1,0 +1,9 @@
+La list-style-type:none propiedad también se puede utilizar para eliminar los marcadores/viñetas. 
+Tenga en cuenta que la lista también tiene margen y relleno predeterminados.
+Para eliminar esto, agregue margin:0 y padding:0 a <ul> o <ol>:
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

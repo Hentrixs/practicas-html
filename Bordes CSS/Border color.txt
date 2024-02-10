@@ -1,0 +1,21 @@
+La border-colorpropiedad se utiliza para establecer el color de los cuatro bordes.
+
+El color se puede configurar mediante:
+
+nombre: especifique un nombre de color, como "rojo"
+HEX: especifique un valor HEX, como "#ff0000"
+RGB: especifique un valor RGB, como "rgb(255,0,0)"
+HSL: especifique un valor HSL, como "hsl(0, 100%, 50%)"
+transparente
+Nota: Si border-colorno se establece, hereda el color del elemento.
+
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+----------------------------------------------------------------------------------------------------------------------
+p.one {
+  border-style: solid;
+  border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+}

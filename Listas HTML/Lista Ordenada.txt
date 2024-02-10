@@ -1,5 +1,0 @@
-se hace con ol y con li
-<ol>
-	<li>Algo</li>
-	<li>Algo2</li>
-</ol>

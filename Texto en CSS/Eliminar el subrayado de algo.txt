@@ -1,0 +1,8 @@
+
+Todos los enlaces en HTML están subrayados de forma predeterminada.
+A veces ves que los enlaces tienen un estilo sin subrayado.
+Se text-decoration: none ;utiliza para eliminar el subrayado de enlaces, como este:
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,8 @@
+La overflow propiedad especifica si se recortará el contenido o se agregarán barras de desplazamiento 
+cuando el contenido de un elemento sea demasiado grande para caber en el área especificada.
+La overflow propiedad tiene los siguientes valores:
+
+visible- 	Por defecto. El desbordamiento no se recorta. El contenido se muestra fuera del cuadro del elemento.
+hidden- 	El desbordamiento se recorta y el resto del contenido será invisible.
+scroll- 	Se recorta el desbordamiento y se agrega una barra de desplazamiento para ver el resto del contenido.
+auto- 		Similar a scroll, pero agrega barras de desplazamiento solo cuando es necesario

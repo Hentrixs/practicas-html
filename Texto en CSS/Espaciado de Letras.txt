@@ -1,0 +1,9 @@
+La letter-spacing propiedad se utiliza para especificar el espacio entre los caracteres de un texto.
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  letter-spacing: -2px;
+}

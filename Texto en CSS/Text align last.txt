@@ -1,0 +1,13 @@
+La text-align-last propiedad especifica cómo alinear la última línea de un texto.
+
+p.a {
+  text-align-last: right;
+}
+
+p.b {
+  text-align-last: center;
+}
+
+p.c {
+  text-align-last: justify;
+}

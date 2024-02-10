@@ -1,0 +1,6 @@
+Elementos HTML <figure> y <figcaption>
+La <figure>etiqueta especifica contenido autónomo, como ilustraciones, diagramas, fotografías, listados de códigos, etc.
+
+La <figcaption >etiqueta define un título para un <figure> elemento. El <figcaption> elemento se puede colocar como el primero o el último hijo de un <figure>elemento.
+
+El <img >elemento define la imagen/ilustración real. 

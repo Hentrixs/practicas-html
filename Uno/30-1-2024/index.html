@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tobias Ramirez">
+    <link rel="stylesheet" href="../css/style5.css">
+    <title>Practica</title>
+
+    <style>
+        .exito {
+            color:darkgreen;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <h1></h1>
+
+    <button onclick="procesar_pago();">confirmar pago</button>
+    <p id="estado" class="animate__animated ">Estado de la transaccion</p>
+   
+
+
+    <script>
+        function procesar_pago(){
+            let mensaje = "Su pago fue procesado exitosamente";
+            
+            console.log(mensaje);
+
+             //document.getElementById("estado").innerHTML=mensaje;
+             $("#estado").text(mensaje);
+             $("#estado").addClass("exito");
+             //animate__shakeY
+             $("#estado").addClass("animate__shakeY");
+
+
+
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+</body>
+</html>

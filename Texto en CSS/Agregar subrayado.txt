@@ -1,0 +1,20 @@
+Agregar una línea de decoración al texto
+La text-decoration-linepropiedad se utiliza para agregar una línea decorativa al texto.
+
+Consejo: Puede combinar más de un valor, para mostrar líneas encima y debajo de un texto.
+
+h1 {
+  text-decoration-line: overline;
+}
+
+h2 {
+  text-decoration-line: line-through;
+}
+
+h3 {
+  text-decoration-line: underline;
+}
+
+p {
+  text-decoration-line: overline underline;
+}

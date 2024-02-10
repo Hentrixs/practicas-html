@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tobias Ramirez">
+    <meta name="Description" content="Practice">
+    <title>Combinadores</title>
+    <style>
+        body {
+            background-color: grey;
+
+        }
+        div h1 {
+            text-decoration-line: underline;
+            text-decoration-color: red;
+            text-decoration-style: dashed;
+            text-decoration-thickness: 4px;
+            /*esto es un hijo indirecto porque estoy usando espacio */
+        }
+        div > p {
+            text-decoration-line: underline;
+            text-decoration-color: blue;
+            text-decoration-style: dashed;
+            text-decoration-thickness: 4px;
+            /*esto selecciona un hijo directo, elementos que  no esten dentro de un contenedor */
+        }
+        div + pre {
+            text-decoration: underline;
+            text-decoration-color: greenyellow;
+            text-decoration-style: dashed;
+            text-decoration-thickness: 4px;
+            /*esto selecciona a un hermano indirecto del div
+            es decir que no esta dentro del div ni dentro de ningun contenedor
+            y no puede haber otros elementos en medio*/
+        }
+        div ~ h2 {
+            text-decoration: underline;
+            text-decoration-color: palevioletred;
+            text-decoration-style: dashed;
+            text-decoration-thickness: 4px;
+            /* esto es para hermanos indirectos, no pueden estar en ningun contenedor 
+            y no importa que otros elementos estan en medio */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Practica combinadores</h1>
+        <p>Los cominadores son formas de seleccionar elementos html de forma indirecta,</p>
+        <br>
+        <p>son muy utiles</p>
+    </div>
+    <pre>xd</pre>
+    <p>
+        aaaa
+    </p>
+    <h1>fdgdg</h1>
+    <h2>Heermano1</h2>
+    <pre>aaa</pre>
+    <h2>Hermano2</h2>
+</body>
+</html>

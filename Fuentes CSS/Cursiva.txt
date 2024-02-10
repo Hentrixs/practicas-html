@@ -1,0 +1,19 @@
+La font-style propiedad se utiliza principalmente para especificar texto en cursiva.
+
+Esta propiedad tiene tres valores:
+
+normal: el texto se muestra normalmente
+italic: el texto se muestra en cursiva
+oblique: el texto está "inclinado" (el oblicuo es muy similar a la cursiva, pero menos compatible)
+
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}

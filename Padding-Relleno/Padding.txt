@@ -1,0 +1,12 @@
+Padding Ejemplo
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+Otro Ejemplo
+
+div {
+  padding: 25px 50px 75px 100px;
+}

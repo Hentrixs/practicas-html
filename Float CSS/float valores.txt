@@ -1,0 +1,9 @@
+La float propiedad se utiliza para posicionar y formatear contenido,
+por ejemplo, dejar que una imagen flote a la izquierda del texto en un contenedor.
+La float propiedad puede tener uno de los siguientes valores:
+
+left- 		El elemento flota a la izquierda de su contenedor.
+right- 		El elemento flota a la derecha de su contenedor.
+none- 		El elemento no flota (se mostrará justo donde aparece en el texto). Esto es predeterminado
+inherit- 	El elemento hereda el valor flotante de su padre.
+En su uso más simple, la floatpropiedad se puede utilizar para ajustar texto alrededor de imágenes.

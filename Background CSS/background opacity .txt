@@ -1,0 +1,11 @@
+            /* la propiedad opacity sirve para poner la transparencia, va de 0.0 a 1.0 */ 
+
+            /* si no desea que los elementos secundarios sufran el efecto de transparencia
+                puede usar background: rgba(0, 120, 0, 0.3) */
+
+Ejemplo:
+
+        h1, h2, h3, h4, h5, h6 {
+            background-color: red;
+            opacity: 0.7;
+        }

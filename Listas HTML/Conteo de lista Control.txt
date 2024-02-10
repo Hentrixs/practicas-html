@@ -1,5 +1,0 @@
-De forma predeterminada, 
-una lista ordenada comenzará a contar desde 1.
-Si desea comenzar a contar desde un número específico,
-puede usar el startatributo:
-

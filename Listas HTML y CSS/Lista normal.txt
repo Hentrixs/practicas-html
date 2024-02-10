@@ -1,0 +1,5 @@
+Se hace con ul y con li
+<ul>
+	<li>Algo</li>
+	<li>Algo2</li>
+</ul>

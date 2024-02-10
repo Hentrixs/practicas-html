@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tobias Ramirez">
+    <link rel="icon" href="Favicon/favicon1.ico.ico">
+    <title>opacity</title>
+    <style>
+        body {
+            background-color: gray;
+            margin: 0px;
+            border: 0px;
+        }
+        h1, p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-decoration-line: underline;
+            text-decoration-color: greenyellow;
+            text-decoration-style: dashed;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            margin: 10px;
+            opacity: 0.5;
+        }
+        img:hover {
+            opacity: 1.0;
+        }
+        ul.one {
+            margin: 0px;
+            margin-left: 0px;
+            border: 0px;
+            padding: 0px;
+            background-color: white;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+        }
+        li {
+            display: inline-block;
+            padding: 10px;
+            background-color: white;
+            margin: 0px;
+            border: 0px;
+        }
+        li:hover {
+            background-color:rgb(53, 53, 53);
+            color: white;
+        }
+        li.menu {
+            background-color: red;
+            color: white;
+        }
+        .two {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1; 
+        }
+        li.one:hover .two {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul class="one">
+        <li class="menu">Menu</li>
+        <li>Productos</li>
+        <li>Nosotros</li>
+    </ul>
+    <ul class="two">
+        <li>Algo</li>
+        <li>Algo2</li>
+        <li>Algo3</li>
+    </ul>
+    <h1>Test de Opacity con Imagenes</h1>
+    <img src="./Sol.jpg" alt="Sol">
+    <img src="./Agua.jpeg" alt="Agua">
+    <img src="./Titanio.jpg" alt="Titianio">
+</body>
+</html>

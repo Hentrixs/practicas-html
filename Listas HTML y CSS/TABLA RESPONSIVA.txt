@@ -1,0 +1,12 @@
+Una tabla responsiva mostrará una barra de desplazamiento horizontal
+si la pantalla es demasiado pequeña para mostrar el contenido completo:
+
+Agregue un elemento contenedor (como <div>) overflow-x:auto alrededor del elemento <table> para que responda:
+
+<div style="overflow-x:auto;">
+
+<table>
+... table content ...
+</table>
+
+</div>

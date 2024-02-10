@@ -1,0 +1,13 @@
+se hace con
+dl para abrir lista
+dt para nombre de la cosa
+dd para la descripcion
+Ejemplo
+
+    <dl>
+        <dt>Empresas</dt>
+        <dd>Las empresas con Organizaciones formadas con el objetivo de ganar dinero</dd>
+        <dt>Estado</dt>
+        <dd>El estado es lo que hace funcionar al pais y esta controlado por el gobierno, <br>
+            Se compone de diversas instituciones</dd>
+    </dl>

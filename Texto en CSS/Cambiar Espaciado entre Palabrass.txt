@@ -1,0 +1,9 @@
+La word-spacing propiedad se utiliza para especificar el espacio entre las palabras de un texto.
+
+p.one {
+  word-spacing: 10px;
+}
+
+p.two {
+  word-spacing: -2px;
+}

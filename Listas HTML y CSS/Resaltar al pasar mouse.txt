@@ -1,0 +1,5 @@
+Utilice el :hover selector en <tr> para resaltar las filas de la tabla al pasar el mouse sobre:
+
+tr:hover {background-color: coral;}
+
+

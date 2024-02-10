@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tobias Ramirez">
+    <link rel="icon" href="./Favicon/favicon1.ico.ico">
+    <title>Practica</title>
+    <style>
+        a.one:hover {
+            font-size: 40px;
+            color: red;
+        }
+        p.solid {
+            background-color: greenyellow;
+        }
+        p.two:hover {
+            background-color: blue;
+        }
+        p.yestar {
+            display: none;
+            background-color: yellow;
+            padding: 20px;
+            text-align: center;
+        }
+        div:hover p {
+            display: block;
+        }
+        div:hover + p {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="aaa" class="one">Enlace</a></p>
+    <p class="two solid">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    <br>
+    <div>
+        Pasa mouse por aqui para mostrar div
+        <p class="yestar">SPECIALE</p>
+    </div>
+        <p class="yestar">SPECIALE</p>
+</body>
+</html>

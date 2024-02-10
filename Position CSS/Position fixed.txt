@@ -1,0 +1,15 @@
+
+Un elemento con position: fixed;se coloca en relación con la ventana gráfica,
+lo que significa que siempre permanece en el mismo lugar incluso si se desplaza la página.
+Las propiedades superior, derecha, inferior e izquierda se utilizan para posicionar el elemento.
+
+Un elemento fijo no deja un espacio en la página donde normalmente se habría ubicado.
+Ejemplo
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}

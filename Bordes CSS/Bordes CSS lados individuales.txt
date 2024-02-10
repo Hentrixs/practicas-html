@@ -1,0 +1,9 @@
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+La border-stylepropiedad se utiliza en el ejemplo anterior. Sin embargo, también funciona con border-width y border-color.
+

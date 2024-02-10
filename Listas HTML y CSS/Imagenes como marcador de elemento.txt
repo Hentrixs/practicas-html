@@ -1,0 +1,6 @@
+La list-style-image propiedad especifica una imagen como marcador de elemento de lista:
+
+ul {
+  list-style-image: url('sqpurple.gif');
+}
+

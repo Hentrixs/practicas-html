@@ -1,0 +1,17 @@
+La z-index propiedad especifica la superposicion de elementos unos sobre otros
+
+La propiedad del índice z
+Cuando se colocan elementos, pueden superponerse a otros elementos.
+
+La z-index propiedad especifica el orden de pila de un elemento
+ (qué elemento debe colocarse delante o detrás de los demás).
+Ejemplo=
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+Nota: z-index solo funciona en elementos posicionados
+ (posición: absolute, posición: relative, posición: fixed o posición: sticky)
+ y elementos flexibles (elementos que son hijos directos de visualización: elementos flexibles).

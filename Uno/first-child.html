@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tobias Ramirez">
+    <meta name="Description" content="Practice">
+    <link rel="icon" href="./Favicon/favicon1.ico.ico">
+    <title>first-child</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        h1.one::first-letter {
+            color: red;
+            font-size: 50px;
+        }
+        h1.two::first-line {
+            color: blue;
+        }
+        h1, p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p:first-child {
+            text-decoration-line: underline;
+            text-decoration-color: greenyellow;
+            text-decoration-style: dashed;
+            /* esto hace que las <p> es decir los parrafos que sean el primer hijo
+            de cualquier elemento sean subrayados */
+        }
+        span h1:first-child {
+            text-decoration-line: underline;
+            text-decoration-color: blue;
+            text-decoration-style: dashed;
+            /* esto hace que el primer h1 que este contenido dentro de un span sea subrayado */
+        }
+        h1.sigma::before {
+            content: url(./sigma.gif);
+            width: 100px;
+            height: 100px;
+        }
+        ::marker {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="one two sigma">Encabezado</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Exercitationem iusto maiores dicta cumque provident qui
+            recusandae consectetur. Unde ducimus rerum adipisci nu
+            mquam culpa dolorem nihil deleniti quia, perferendis, s
+            int tempora.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            sVelit veniam quas quos! Libero eos, iusto sed provident
+            minus, voluptatibus enim nam hic ea expedita reprehend
+            erit sit doloremque, id vero. Quaerat.</p>
+    </div>
+    <span>
+        <h1>aaaaaaaaaaaaa</h1><h1>bbbbbbbbbb</h1>
+    </span>
+    <span>
+        <h1>aaaaaaaaaaa</h1><h1>bbbbbbbbbb</h1>
+    </span>
+    <ul>
+        <li>
+            aaa
+        </li>
+        <li>aaa</li>
+    </ul>
+</body>
+</html>

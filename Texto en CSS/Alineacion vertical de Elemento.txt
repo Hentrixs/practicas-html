@@ -1,0 +1,23 @@
+La vertical-align propiedad establece la alineación vertical de un elemento.
+
+Ejemplo
+
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}

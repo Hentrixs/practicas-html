@@ -1,0 +1,11 @@
+se puede usar la id para llamar un elemento por css
+
+#algo {
+	background-image: url (ruta.img);
+}
+
+tambien se puede por clase
+
+.nombreclase {
+	color:red;
+}

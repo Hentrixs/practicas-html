@@ -1,0 +1,25 @@
+Cuando usamos la float propiedad y queremos el siguiente elemento debajo 
+(no a la derecha ni a la izquierda), tendremos que usar la clear propiedad.
+
+La clear propiedad especifica qué debe suceder con el elemento que está al lado de un elemento flotante.
+
+La clear propiedad puede tener uno de los siguientes valores:
+
+none- 		El elemento no se empuja debajo de los elementos flotantes izquierdo o derecho. Esto es predeterminado
+left- 		El elemento se empuja debajo de los elementos flotantes a la izquierda.
+right- 		El elemento se empuja debajo de los elementos flotantes derechos.
+both- 		El elemento se empuja debajo de los elementos flotantes izquierdo y derecho.
+inherit- 	El elemento hereda el valor claro de su padre.
+Al borrar los flotadores, debes hacer coincidir el claro con el flotante: 
+si un elemento flota hacia la izquierda, entonces debes borrar hacia la izquierda
+. Su elemento flotante seguirá flotando, pero el elemento borrado aparecerá debajo de él en la página web.
+
+Ejemplo
+
+div1 {
+  float: left;
+}
+
+div2 {
+  clear: left;
+}

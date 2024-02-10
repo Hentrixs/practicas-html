@@ -1,0 +1,8 @@
+Además, los enlaces pueden tener diferentes estilos según el estado en el que se encuentren.
+
+Los cuatro estados de los enlaces son:
+
+a:link- un enlace normal y no visitado
+a:visited- un enlace que el usuario ha visitado
+a:hover- un enlace cuando el usuario pasa el mouse sobre él
+a:active- un enlace en el momento en que se hace clic en él

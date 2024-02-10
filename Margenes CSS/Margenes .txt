@@ -1,0 +1,9 @@
+margin-top
+margin-right
+margin-bottom
+margin-left
+---------------------
+Otra forma
+p {
+  margin: 25px 50px 75px 100px;
+}

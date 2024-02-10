@@ -1,0 +1,5 @@
+letter-spacing	Specifies the space between characters in a text
+line-height	Specifies the line height
+text-indent	Specifies the indentation of the first line in a text-block
+white-space	Specifies how to handle white-space inside an element
+word-spacing	Specifies the space between words in a text
